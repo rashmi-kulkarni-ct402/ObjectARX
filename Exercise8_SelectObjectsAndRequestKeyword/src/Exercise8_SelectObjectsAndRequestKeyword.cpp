@@ -89,7 +89,7 @@ extern "C" AcRx::AppRetCode acrxEntryPoint(AcRx::AppMsgCode Msg, void* pkt)
 		acrxDynamicLinker->unlockApplication(pkt);
 		acrxDynamicLinker->registerAppMDIAware(pkt);
 		acutPrintf(L"\nLoading project...\n");
-		acedRegCmds->addCommand(_T("AUCommands"), _T("ChangeColor"), _T("ChangeColor"),
+		acedRegCmds->addCommand(_T("AUCommands"), _T("ChangeColor"), _T("changeColor"),
 			ACRX_CMD_MODAL | ACRX_CMD_USEPICKSET, changeColor);
 		break;
 

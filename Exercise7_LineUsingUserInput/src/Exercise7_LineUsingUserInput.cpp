@@ -48,7 +48,7 @@ extern "C" AcRx::AppRetCode acrxEntryPoint(AcRx::AppMsgCode Msg, void* pkt)
         acrxDynamicLinker->unlockApplication(pkt);
         acrxDynamicLinker->registerAppMDIAware(pkt);
         acutPrintf(L"\nLoading project...\n");
-        acedRegCmds->addCommand(_T("AUCommands"), _T("Line"), _T("LineUsingUserInput"), 
+        acedRegCmds->addCommand(_T("AUCommands"), _T("AddLineUserInput"), _T("addLineUsingUserInput"), 
             ACRX_CMD_MODAL, lineUsingUserInput);
         break;
 
