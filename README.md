@@ -45,7 +45,7 @@ This project demonstrates various ObjectARX functionalities in the AutoCAD envir
 
 ### Exercise 11: Work with System Variables and Use Commands
 - **Description:**  Demonstrates how to work with AutoCAD system variables and use commands to create a circle with a specific radius.
-- **Command:**systemVariables
+- **Command:** systemVariables
 - **Expected Output:**  Draws a circle with a specified center point and radius, then restores the original value of the CIRCLERAD system variable.
 
 ### Exercise 12: Work with Input and Single Line Text Objects
