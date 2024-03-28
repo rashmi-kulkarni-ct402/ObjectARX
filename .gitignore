@@ -29,17 +29,11 @@ bld/
 /.vs/ObjectARXApplication
 
 # ObjectARX specific ignores
-/Exercises1-3_LoadProjectAndRunCustomCommand/res
 /Exercises1-3_LoadProjectAndRunCustomCommand/x64/Debug
-/Exercise4_AddLine/res
 /Exercise4_AddLine/x64/Debug
-/Exercise5_CreateNewLayer/res
 /Exercise5_CreateNewLayer/x64/Debug
-/Exercise6_ListAllObjects/res
 /Exercise6_ListAllObjects/x64/Debug
-/Exercise7_LineUsingUserInput/res
 /Exercise7_LineUsingUserInput/x64/Debug
-/Exercise8_SelectObjectsAndRequestKeyword/res
 /Exercise8_SelectObjectsAndRequestKeyword/x64/Debug
 
 
