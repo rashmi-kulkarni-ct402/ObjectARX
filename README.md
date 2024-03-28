@@ -43,6 +43,22 @@ This project demonstrates various ObjectARX functionalities in the AutoCAD envir
 - **Expected Usage:** Select objects, then enter a color keyword (e.g., "Red", "Yellow", "Green", "Bylayer").
 - **Expected Output:** Changes the color of the selected objects to the specified color.
 
+### Exercise 11: Work with System Variables and Use Commands
+- **Description:**  Demonstrates how to work with AutoCAD system variables and use commands to create a circle with a specific radius.
+- **Command:** systemVariables
+- **Expected Output:**  Draws a circle with a specified center point and radius, then restores the original value of the CIRCLERAD system variable.
+
+### Exercise 12: Work with Input and Single Line Text Objects
+- **Description:** Prompts the user for their age and name, then creates single-line text objects displaying the inputted information at a specified insertion point.
+- **Command:**: userInput
+- **Expected Output:** Displays the user's age and name as single-line text objects in the drawing.
+
+### Exercise 13: Defining AutoLISP Functions
+- **Description:**  Defines custom AutoLISP functions for advanced messaging, degree-to-radian conversion, radian-to-degree conversion, and calculating the tangent of an angle.
+- **Functions:**  Ex_Alert, Dtr, Rtd, Tan
+- **Expected Usage:**  (Ex_Alert "Message" "Caption" BUTTON ICON), (Dtr <degrees>), (Rtd <radians>), (Tan <angle in radians>)
+- **Expected Output:**  Displays an extended alert message, converts degrees to radians, converts radians to degrees, and calculates the tangent of an angle, respectively.
+
 ## Usage
 
 1. Build the project in Microsoft Visual Studio.
@@ -86,3 +102,11 @@ Exercise 8:
 ![Exercise8_SelectColor](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/baabc757-8a82-4d43-b176-ce858cd6da98)
 
 ![Exercise8_UpdatedColor](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/cf144485-4b26-4df0-a352-5d28b32be6aa)
+
+Exercise 11:
+
+![Exercise11](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/23824a3b-7bf3-469e-ac65-a3cd81850d86)
+
+Exercise 12:
+
+![Exercise12](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/fe9d91bf-213f-4b1a-8ba7-b99d8279b0a3)

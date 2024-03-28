@@ -35,7 +35,9 @@ bld/
 /Exercise6_ListAllObjects/x64/Debug
 /Exercise7_LineUsingUserInput/x64/Debug
 /Exercise8_SelectObjectsAndRequestKeyword/x64/Debug
-
+/Exercise11_SystemVariables/x64/Debug
+/Exercise12_UserInputAndSingleLineTextObjects/x64/Debug
+/Exercise13_AutoLISPFunction/x64/Debug
 
 # Others
 *.log
@@ -81,3 +83,10 @@ bld/
 *.[Rr]e[Ss]harper*/
 *.[Tt]est[Rr]esult*/
 *.[Bb]uild[Ll]og.*/
+
+/Exercise11_SystemVariables/RCa06664
+/Exercise12_UserInputAndSingleLineTextObjects/RCa14448
+/Exercise4_AddLine/RCa13892
+/Exercise5_CreateNewLayer/RCa13892
+/Exercise6_ListAllObjects/RCa13892
+/Exercises1-3_LoadProjectAndRunCustomCommand/RCa13892
