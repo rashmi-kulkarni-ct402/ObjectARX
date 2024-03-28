@@ -43,6 +43,22 @@ This project demonstrates various ObjectARX functionalities in the AutoCAD envir
 - **Expected Usage:** Select objects, then enter a color keyword (e.g., "Red", "Yellow", "Green", "Bylayer").
 - **Expected Output:** Changes the color of the selected objects to the specified color.
 
+### Exercise 11: Work with System Variables and Use Commands
+- **Description:**  Demonstrates how to work with AutoCAD system variables and use commands to create a circle with a specific radius.
+- **Command:**systemVariables
+- **Expected Output:**  Draws a circle with a specified center point and radius, then restores the original value of the CIRCLERAD system variable.
+
+### Exercise 12: Work with Input and Single Line Text Objects
+- **Description:** Prompts the user for their age and name, then creates single-line text objects displaying the inputted information at a specified insertion point.
+- **Command:**: userInput
+- **Expected Output:** Displays the user's age and name as single-line text objects in the drawing.
+
+### Exercise 13: Defining AutoLISP Functions
+- **Description:**  Defines custom AutoLISP functions for advanced messaging, degree-to-radian conversion, radian-to-degree conversion, and calculating the tangent of an angle.
+- **Functions:**  Ex_Alert, Dtr, Rtd, Tan
+- **Expected Usage:**  (Ex_Alert "Message" "Caption" BUTTON ICON), (Dtr <degrees>), (Rtd <radians>), (Tan <angle in radians>)
+- **Expected Output:**  Displays an extended alert message, converts degrees to radians, converts radians to degrees, and calculates the tangent of an angle, respectively.
+
 ## Usage
 
 1. Build the project in Microsoft Visual Studio.
@@ -50,3 +66,40 @@ This project demonstrates various ObjectARX functionalities in the AutoCAD envir
 3. Enter the respective command for each exercise to execute the functionality.
 
 ## Output
+
+Exercise 1:
+
+![Exercise1](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/a20af321-453c-41f6-a40e-e90f1ae76f7e)
+
+Exercise 2:
+
+![Exercise2](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/a12096e0-4d11-4534-8c73-f1e96b913721)
+
+Exercise 3:
+
+![Exercise3](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/d5794f4e-437b-4657-bdbd-315da35a016a)
+
+Exercise 4:
+
+![Exercise4](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/00e22b8c-aaca-4796-81b4-244fc0967330)
+
+Exercise 5:
+
+![Exercise5](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/df917856-3b3b-4462-a516-733e71ed2612)
+
+Exercise 6:
+
+![Exercise6](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/4cdb10ba-607b-4518-9046-6c5ee8de7203)
+
+Exercise 7:
+
+![Exercise7](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/3715cab5-5b87-4d7f-b3f0-9c493a5a27e4)
+
+Exercise 8:
+
+![Exercise8_ChangeColorCommand](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/8e4bde4d-3f30-4473-b9e1-8cad9bf20bb1)
+
+![Exercise8_SelectColor](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/baabc757-8a82-4d43-b176-ce858cd6da98)
+
+![Exercise8_UpdatedColor](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/cf144485-4b26-4df0-a352-5d28b32be6aa)
+
