@@ -103,3 +103,10 @@ Exercise 8:
 
 ![Exercise8_UpdatedColor](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/cf144485-4b26-4df0-a352-5d28b32be6aa)
 
+Exercise 11:
+
+![Exercise11](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/23824a3b-7bf3-469e-ac65-a3cd81850d86)
+
+Exercise 12:
+
+![Exercise12](https://github.com/rashmi-kulkarni-ct402/ObjectARX/assets/158051740/fe9d91bf-213f-4b1a-8ba7-b99d8279b0a3)
